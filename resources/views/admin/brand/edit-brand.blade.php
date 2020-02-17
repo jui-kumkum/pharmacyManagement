@@ -5,7 +5,7 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="text-center text-success">Edit category Form </h4>
+                    <h4 class="text-center text-success">Edit  Form </h4>
                 </div>
                 <div class="panel-body">
 
@@ -13,14 +13,14 @@
                     <form action="{{ route('update-brand') }}" method="POST" class="form-horizontal">
                         {{ csrf_field() }}
                         <div class="form-group">
-                            <label class="control-label col-md-3">Brand Name</label>
+                            <label class="control-label col-md-3">Company Name</label>
                             <div class="col-md-9">
                                 <input type="text" value="{{ $brand->brand_name }}" name="brand_name" class="form-control"/>
                                 <input type="hidden" value="{{ $brand->id }}" name="brand_id" class="form-control"/>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3">Brand Description</label>
+                            <label class="control-label col-md-3">Company Description</label>
                             <div class="col-md-9">
                                 <textarea class="form-control" name="brand_description"> {{ $brand->brand_description }} </textarea>
                             </div>

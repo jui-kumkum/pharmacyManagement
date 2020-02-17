@@ -4,15 +4,15 @@
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="text-center text-success"> Manage Brand category </h4>
+                    <h4 class="text-center text-success"> Manage Company category </h4>
                 </div>
                 <div class="panel-body">
                     <h2 class="text-success text-center">{{ Session::get('message') }}</h2>
                     <table class="table table-bordered">
                         <tr class="bg-success">
                             <th> SL No</th>
-                            <th> Brand Name</th>
-                            <th> Brand Descriptin </th>
+                            <th> Company Name</th>
+                            <th> Company Description </th>
                             <th> Publication Status </th>
                             <th> Action  </th>
                         </tr>

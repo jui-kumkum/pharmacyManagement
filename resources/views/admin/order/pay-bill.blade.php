@@ -47,7 +47,7 @@
                         <tr>
                             <td>
                             </td>
-                            <td> <button type="submit" class="btn btn-primary mb-2">Confirm identity</button></td>
+                            <td> <button type="submit" class="btn btn-primary mb-2">Confirm</button></td>
 
                         </tr>
 

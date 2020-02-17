@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-6 well col-md-offset-3">
 
-                <h3 class="text-success text-center"> Shipping Details </h3>
+                <h3 class="text-success text-center"> Delivery Details </h3>
                 <br/>
                 <form class="form-horizontal" action="{{ route('new-order') }}" method="post">
                     {{ csrf_field() }}
@@ -26,6 +26,14 @@
                         </tr>
                         <tr>
                             <th> Bkash </th>
+                            <td> <input type="radio" name="payment_type" value="Bkash" /> </td>
+                        </tr>
+                        <tr>
+                            <th> Rocket </th>
+                            <td> <input type="radio" name="payment_type" value="Bkash" /> </td>
+                        </tr>
+                        <tr>
+                            <th> Nogod </th>
                             <td> <input type="radio" name="payment_type" value="Bkash" /> </td>
                         </tr>
                         <tr>

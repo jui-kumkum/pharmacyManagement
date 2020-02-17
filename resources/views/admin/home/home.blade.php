@@ -13,11 +13,14 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-xs-3">
-                            <i class="fa fa-comments fa-5x"></i>
+                            <i class=""></i>
                         </div>
+
+
+
                         <div class="col-xs-9 text-right">
-                            <div class="huge">26</div>
-                            <div>New Comments!</div>
+                            <div class="huge"><i>10</i></div>
+                            <div> Total Order!</div>
                         </div>
                     </div>
                 </div>
@@ -35,11 +38,11 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-xs-3">
-                            <i class="fa fa-tasks fa-5x"></i>
+                            <i class=""></i>
                         </div>
                         <div class="col-xs-9 text-right">
                             <div class="huge">12</div>
-                            <div>New Tasks!</div>
+                            <div>New Orders!</div>
                         </div>
                     </div>
                 </div>
@@ -57,11 +60,11 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-xs-3">
-                            <i class="fa fa-shopping-cart fa-5x"></i>
+                            <i class=""></i>
                         </div>
                         <div class="col-xs-9 text-right">
                             <div class="huge">124</div>
-                            <div>New Orders!</div>
+                            <div>Pending Orders!</div>
                         </div>
                     </div>
                 </div>
@@ -79,11 +82,11 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-xs-3">
-                            <i class="fa fa-support fa-5x"></i>
+                            <i class=""></i>
                         </div>
                         <div class="col-xs-9 text-right">
                             <div class="huge">13</div>
-                            <div>Support Tickets!</div>
+                            <div> Total Delivery!</div>
                         </div>
                     </div>
                 </div>

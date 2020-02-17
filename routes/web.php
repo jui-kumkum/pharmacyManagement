@@ -219,7 +219,6 @@ Route::post('/product/new-product',[
     'as' => 'new-product'
 ]);
 
-
 // view details
 
 

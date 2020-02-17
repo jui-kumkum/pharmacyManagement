@@ -71,7 +71,7 @@
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="text-center text-success"> Shipping Info For Order Details </h4>
+                    <h4 class="text-center text-success"> Delivery Info For Order Details </h4>
                 </div>
                 <div class="panel-body">
                     <table class="table table-bordered">
@@ -131,14 +131,14 @@
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="text-center text-success"> Products Info For Order </h4>
+                    <h4 class="text-center text-success"> Medicines Info For Order </h4>
                 </div>
                 <div class="panel-body">
                     <table class="table table-bordered">
                         <tr>
-                            <th> Product Name </th>
-                            <th> Product Price </th>
-                            <th> Product Quantity </th>
+                            <th> Medicine Name </th>
+                            <th> Medicine Price </th>
+                            <th> Medicine Quantity </th>
                             <th> Total Price </th>
                         </tr>
                         @foreach($products as $product)

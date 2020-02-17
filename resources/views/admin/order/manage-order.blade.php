@@ -49,9 +49,11 @@
                                         <span class="glyphicon glyphicon-floppy-save"></span>
                                     </a>
 
-                                    <a href="{{ route('delete-category',['id'=>$order->id]) }}" class="btn btn-danger btn-xs" onclick="return confirm('Are Sure to delete this???') " title="Delete Order">
-                                        <span class="glyphicon glyphicon-trash"></span>
-                                    </a>
+                                    <a href="" class="btn btn-danger btn-xs" onclick="return confirm('Are Sure to delete this???') ">
+                                             <span class="glyphicon glyphicon-trash"></span>
+                                        </a>
+
+                                  
                                 </td>
                             </tr>
 

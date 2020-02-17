@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Admin- ONLINE PHARMACY Management System</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('/') }}admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
 <div id="wrapper">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
         @include('admin.includes.header')
         <!-- /.navbar-top-links -->
         @include('admin.includes.menu')

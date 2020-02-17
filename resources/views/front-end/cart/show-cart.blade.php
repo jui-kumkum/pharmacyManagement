@@ -15,7 +15,7 @@
             <thead>
             <tr>
 
-                <th class="text-center">Product</th>
+                <th class="text-center">Medicine</th>
                 <th class="text-center">Price</th>
                 <th class="text-center">Quantity</th>
                 <th class="text-center">Subtotal</th>
@@ -75,7 +75,7 @@
                 <td></td>
                 <td></td>
                 
-                <td><h5> shipping Charge</h5></td>
+                <td><h5> Delivery Charge</h5></td>
                 <td class="text-right"><h5><strong>TK. {{ $vat = 60 }}</strong></h5></td>
             </tr>
 
@@ -97,7 +97,7 @@
                 
                 <td>
                     <a href="{{ route('/') }}" type="button" class="btn btn-default">
-                        <span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
+                        <span class="glyphicon glyphicon-shopping-cart"></span> Continue Buying
                     </a>
                 </td>
 

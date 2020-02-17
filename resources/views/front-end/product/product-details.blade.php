@@ -5,8 +5,8 @@
 
     <div class="banner-top">
         <div class="container">
-            <h3 >Product Details</h3>
-            <h4><a href="">Product Details </a><label>/</label>{{ $product->product_name }}</h4>
+            <h3 >Medicine Details</h3>
+            <h4><a href="">Medicine Details </a><label>/</label>{{ $product->product_name }}</h4>
             <div class="clearfix"> </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                         </div>
 
                         <div >
-                            <div class=""><strong> Mobile :</strong> +8801671354804 </div>
+                            <div class=""><strong> HOT LINE :</strong> 1212 </div>
                         </div>
 
                         <p class="in-pa"> {{ $product->short_description }} </p>
@@ -103,29 +103,7 @@
     <br/>
     <hr/>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <a href="#"><img class="first-slide" src="{{ asset('/') }}front/images/s6.jpg" alt="First slide"></a>
-
-            </div>
-            <div class="item">
-                <a href="#"><img class="second-slide " src="{{ asset('/') }}front/images/s7.jpg" alt="Second slide"></a>
-
-            </div>
-            <div class="item">
-                <a href="#"><img class="third-slide " src="{{ asset('/') }}front/images/s9.jpg" alt="Third slide"></a>
-
-            </div>
-        </div>
-
-    </div>
+    
 
     <br/>
     <br/>

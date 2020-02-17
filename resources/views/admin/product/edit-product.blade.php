@@ -5,7 +5,7 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="text-center text-success">Add Product Form </h4>
+                    <h4 class="text-center text-success">Add Medicine Form </h4>
                 </div>
                 <div class="panel-body">
 
@@ -27,7 +27,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="control-label col-md-3"> Brand ID </label>
+                        <label class="control-label col-md-3"> Company </label>
                         <div class="col-md-9">
                             <select class="form-control" name="brand_id">
                                 <option> -- Brand Name -- </option>
@@ -40,7 +40,7 @@
 
 
                     <div class="form-group">
-                        <label class="control-label col-md-3">Product Name </label>
+                        <label class="control-label col-md-3">Medicine Name </label>
                         <div class="col-md-9">
                             <textarea class="form-control" name="product_name">{{ $products->product_name }}</textarea>
                             <input type="hidden" class="form-control" name="product_id" value="{{ $products->id }}"  />
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="control-label col-md-3">Product Price </label>
+                        <label class="control-label col-md-3">Mdicine Price </label>
                         <div class="col-md-9">
                             <textarea class="form-control" name="product_price">{{ $products->product_price }}</textarea>
                             <span class="text-danger">{{ $errors->has('product_price') ? $errors->first('product_price') : ' ' }}</span>
@@ -59,26 +59,26 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="control-label col-md-3">Product Quantity </label>
+                        <label class="control-label col-md-3">Medicine Quantity </label>
                         <div class="col-md-9">
                             <textarea class="form-control" name="product_quantity">{{ $products->product_quantity }}</textarea>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="control-label col-md-3"> Short Description </label>
+                        <label class="control-label col-md-3"> Group </label>
                         <div class="col-md-9">
                             <textarea class="form-control" name="short_description"> {{ $products->short_description }} </textarea>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-md-3"> Long Description </label>
+                        <label class="control-label col-md-3"> Description </label>
                         <div class="col-md-9">
                             <textarea class="form-control" id="editor" name="long_description">{{ $products->long_description }}</textarea>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-md-3"> Product Image </label>
+                        <label class="control-label col-md-3">Medicine Image </label>
                         <div class="col-md-9">
                             <input type="file" accept="image/*" name="product_image" />
                             <br/>

@@ -9,12 +9,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center well text-success">
-                   <h5> Wellcome Dear <strong> {{ Session::get('customerName') }},</strong> You have to give us your shipping address for completing the order process </h5>
+                   <h5> Wellcome Dear <strong> {{ Session::get('customerName') }},</strong> You have to give us your delivery address for completing the order process </h5>
                 </div>
             </div>
             <div class="col-md-6 well col-md-offset-3">
 
-                <h3 class="text-success text-center"> Shipping Details </h3>
+                <h3 class="text-success text-center"> Delivery Details </h3>
                 <br/>
                 <form class="form-horizontal" action="{{ route('new-shipping') }}" method="post">
                     {{ csrf_field() }}

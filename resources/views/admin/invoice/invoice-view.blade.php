@@ -190,16 +190,14 @@
 
                         </div>
                         <div class="col company-details">
-                            <a target="_blank" href="https://lobianijs.com">
-                                <img src="{{ asset('/') }}admin/image/big_store.jpg" height="130" width="140" data-holder-rendered="true" />
-                            </a>
+                            
                             <h2 class="name">
-                                <a target="_blank" href="https://lobianijs.com">
-                                    Pro Shopping BD
+                                <a target="_blank" href="">
+                                    Online Pharmacy
                                 </a>
                             </h2>
-                            <div>Uttara Dhaka</div>
-                            <div>(123) 456-789</div>
+                            <div>Banani, Dhaka</div>
+                            <div>1212</div>
                             <div>company@example.com</div>
                         </div>
                     </div>
@@ -213,7 +211,7 @@
                             <div class="email"><a href="{{ $customer->email_address  }}">{{ $customer->email_address  }}</a></div>
                         </div>
                         <div class="col invoice-details">
-                            <h1 class="invoice-id">Shipping Address</h1>
+                            <h1 class="invoice-id">Delivery Address</h1>
                             <div class="date"> {{ $shipping->full_name }}</div>
                             <div class="date"> {{ $shipping->email_address }}</div>
                             <div class="date"> {{ $shipping->phone_number }}</div>
@@ -226,7 +224,7 @@
                         <tr>
                             <th>#</th>
                             <th class="text-left">DESCRIPTION</th>
-                            <th class="text-right">PRODUCT PRICE</th>
+                            <th class="text-right">MEDICINE PRICE</th>
                             <th class="text-right">QUANTITY</th>
                             <th class="text-right">TOTAL</th>
                         </tr>
@@ -258,7 +256,7 @@
                         </tr>
                         <tr>
                             <td colspan="2"></td>
-                            <td colspan="2"> SHIPPING CHARGE</td>
+                            <td colspan="2"> DELIVERY CHARGE</td>
                             <td>{{ 50 }}</td>
                         </tr>
                         <tr>

@@ -5,7 +5,7 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h2 class="text-center text-success">Add Brand Form </h2>
+                    <h2 class="text-center text-success">Add Company Details </h2>
                 </div>
 
                 <div class="panel-body">
@@ -19,14 +19,14 @@
                     {{ Form::open(['route'=>'new-brand', 'method'=>'post', 'class'=>'form-horizontal'  ]) }}
 
                     <div class="form-group">
-                        <label class="control-label col-md-3">Brand Name</label>
+                        <label class="control-label col-md-3">Comapany Name</label>
                         <div class="col-md-9">
                             <input type="text" name="brand_name" class="form-control"/>
                             <span class="text-danger">{{ $errors->has('brand_name') ? $errors->first('brand_name') : ' ' }}</span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-md-3">Brand Description</label>
+                        <label class="control-label col-md-3">Company Description</label>
                         <div class="col-md-9">
                             <textarea class="form-control" name="brand_description"></textarea>
                             <span class="text-danger"> {{ $errors->has('brand_description') ? $errors->first('brand_description') : ' ' }} </span>

@@ -1,5 +1,5 @@
-<div class="navbar-default sidebar" role="navigation">
-    <div class="sidebar-nav navbar-collapse">
+<div class=" sidebar" style="background-color: #122b40" role="navigation">
+    <div class="sidebar-nav  navbar-collapse">
         <ul class="nav" id="side-menu">
             <li class="sidebar-search">
                 <div class="input-group custom-search-form">
@@ -13,7 +13,7 @@
                 <!-- /input-group -->
             </li>
             <li>
-                <a href="{{ route('home') }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                <a href="{{ route('home') }}"><i class="fa fa-dashboard fa-fw" style="background-color: #122b40"></i> Dashboard</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Category Info <span class="fa arrow"></span></a>
@@ -30,13 +30,13 @@
             <!-- brand category -->
 
             <li>
-                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Brand Info <span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Medicine Company <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="{{ route('add-brand') }}">Add Brand </a>
+                        <a href="{{ route('add-brand') }}">Add Company </a>
                     </li>
                     <li>
-                        <a href="{{ route('manage-brand') }}">Manage Brand </a>
+                        <a href="{{ route('manage-brand') }}">Manage  </a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
@@ -45,13 +45,38 @@
             <!-- brand category -->
 
             <li>
-                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Product Info <span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-bar-chart-o fa-fw" style="background-color: #122b40"></i> Medicine Info <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="{{ route('add-product') }}">Add Product </a>
+                        <a href="{{ route('add-product') }}">Add Medicine </a>
                     </li>
                     <li>
-                        <a href="{{ route('manage-product') }}">Manage Product </a>
+                        <a href="{{ route('manage-product') }}">Manage Medicine </a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+
+
+            <li>
+                <a href="#"><i class="fa fa-bar-chart-o fa-fw" ></i> POS <span class="fa arrow" style="background-color: #122b40"></span></a>
+                <ul class="nav nav-second-level" style="background-color: #122b40">
+                    <li>
+                        <a href="">Account Management </a>
+                    </li>
+
+                    <li>
+                        <a href="">Employee Management </a>
+                    </li>
+
+                    <li>
+                        <a href="">Customer Management </a>
+                    </li>
+                    <li>
+                        <a href="">Branch Management </a>
+                    </li>
+                    <li>
+                        <a href="">Daily Reports </a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
@@ -64,8 +89,11 @@
 
 
             <li>
-                <a href="{{ route('manage-order') }}"><i class="fa fa-table fa-fw"></i> Manage Order </a>
+                <a href="{{ route('manage-order') }}"><i class="fa fa-table fa-fw"style="background-color: #122b40"></i> Manage Customer Order  </a>
             </li>
+
+
+
 
 
         </ul>

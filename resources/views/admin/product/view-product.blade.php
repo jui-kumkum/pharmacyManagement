@@ -4,7 +4,7 @@
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4 class="text-center text-success"> Manage Product </h4>
+                    <h4 class="text-center text-success"> Manage Medicine </h4>
                 </div>
                 <div class="panel-body">
                     <table class="table">
@@ -12,7 +12,7 @@
 
 
                         <tr>
-                            <th> Product ID : </th>
+                            <th> Medicine ID: </th>
                             <td> {{ $product->id }} </td>
                         </tr>
 {{--                        <tr>--}}
@@ -24,28 +24,28 @@
 {{--                            <td> {{ $product->brand_id }} </td>--}}
 {{--                        </tr>--}}
                         <tr>
-                            <th> Product Name: </th>
+                            <th> Medicine Name: </th>
                             <td> {{ $product->product_name }} </td>
                         </tr>
                         <tr>
-                            <th> Product Price: </th>
+                            <th> Medicine Price: </th>
                             <td> {{ $product->product_price }} </td>
                         </tr>
                         <tr>
-                            <th> Product Quantity: </th>
+                            <th> Medicine Quantity: </th>
                             <td> {{ $product->product_quantity }} </td>
                         </tr>
 
                         <tr>
-                            <th> Short Description </th>
+                            <th>  Group </th>
                             <td> {{ $product->short_description }} </td>
                         </tr>
                         <tr>
-                            <th> Long Description </th>
+                            <th> Description </th>
                             <td> {{ $product->long_description }} </td>
                         </tr>
                         <tr>
-                            <th> Product Image </th>
+                            <th> Medicine Image </th>
                             <td> <img src=" {{asset($product->product_image)}} " alt="" height="420" width="430" > </td>
                         </tr>
                         <tr>
